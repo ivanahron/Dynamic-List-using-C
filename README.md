@@ -19,7 +19,7 @@ A [Dynamic array](https://en.wikipedia.org/wiki/Dynamic_array) data structure ca
 This implementations work like a doubly linked list with multiple layers such that there are fewer nodes on the higher layers. The layers at the top of the Skip list serves as highways for index traversal thus skipping over nodes in the layers below. More details of the implementation can be found in this [link](https://en.wikipedia.org/wiki/Skip_list).
 
 ### Sequence of Trees
-In this data structure, dynamic list elements are stored as the leaves of [*perfect*](https://www.geeksforgeeks.org/perfect-binary-tree/) binary trees such that the largest binary tree would be at the middle of the sequence with decreasing sizes to the left and right. Each tree in the sequence would then be connected via its root through a doubly linked list. Accessing any element on the sequence of trees would then depend on the number of trees and the maximum  height of any tree in the sequence. 
+In this data structure, dynamic list elements are stored as the leaves of [*perfect*](https://xlinux.nist.gov/dads/HTML/perfectBinaryTree.html) binary trees such that the largest binary tree would be at the middle of the sequence with decreasing sizes to the left and right. Each tree in the sequence would then be connected via its root through a doubly linked list. Accessing any element on the sequence of trees would then depend on the number of trees and the maximum  height of any tree in the sequence. 
 
 ### Working Functions
 | Operation | Description |
