@@ -1,4 +1,4 @@
-**NOTE: Originally created as a school pair project for CS 32 of Computer Science in UP Diliman, adapted and maintained as part of my personal portfolio.**
+**NOTE: Originally created as a school pair project for CS 32 (Data Structures and Algorithms I) of Computer Science in UP Diliman, adapted and maintained as part of my personal portfolio.**
 # CS32-241-MP1
 
 ---
