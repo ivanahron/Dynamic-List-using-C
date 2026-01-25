@@ -95,13 +95,13 @@ $$\ell = 2^{k-1} b_{k-1} + \ldots + \ldots 2^0 b_0.$$
 
 Note that if $b_i = 1$, then we construct a tree with $2^i$ leaves; otherwise, we construct nothing.
 
-In particular, there are $\le \lg \ell + 1$ trees&mdash;$2^{k-1} \le \ell$, so $k-1 \le \lg \ell$ and $k \le \lg \ell + 1$&mdash;proving that our upper bound above is correct.
+In particular, there are $$\le \lg \ell + 1$$ trees &mdash; $2^{k-1} \le \ell$, so $$k-1 \le \lg \ell$$ and $$k \le \lg \ell + 1$$&mdash;proving that our upper bound above is correct.
 
 A tree of order $k$ is constructed in $O(2^k)$ time, so the trees are constructed in time
 
 $$O(2^{k-1} + 2^{k-2} + \ldots + 2^0) = O(2^k) = O(2\ell) = O(\ell).$$
 
-Lastly, the roots of the trees are connected in a doubly linked list. Since there are $O(\lg \ell)$ trees, this takes $O(\lg \ell)$ time. Thus, the overall time complexity is $$O(\ell + \lg \ell) = O(\ell)$.
+Lastly, the roots of the trees are connected in a doubly linked list. Since there are $O(\lg \ell)$ trees, this takes $O(\lg \ell)$ time. Thus, the overall time complexity is $$O(\ell + \lg \ell) = O(\ell)$$.
 
 ##### **`push()`**
 As stated in [DETAILS.md](https://github.com/UPD-DCS/machine-problem-1-coding-eyyy/blob/main/DETAILS.md), this operation took inspiration on the push with merge operation of binomial heaps which takes $$O(lgn)$$ time. We can just argue that it should have the same time complexity as that of binomial heaps, but let's still prove it by showing how the operation really works.
